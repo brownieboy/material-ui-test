@@ -4,6 +4,8 @@ var buildPath = path.resolve(__dirname, 'build');
 var nodeModulesPath = path.resolve(__dirname, 'node_modules');
 var TransferWebpackPlugin = require('transfer-webpack-plugin');
 
+console.log("webpack-dev-server.config.js");
+
 var config = {
   //Entry points to the project
   entry: [

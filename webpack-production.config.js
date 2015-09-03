@@ -4,6 +4,8 @@ var buildPath = path.resolve(__dirname, 'build');
 var nodeModulesPath = path.resolve(__dirname, 'node_modules');
 var TransferWebpackPlugin = require('transfer-webpack-plugin');
 
+console.log("web.production.config.js");
+
 var config = {
   entry: [path.join(__dirname, '/src/app/app.jsx')],
   resolve: {
