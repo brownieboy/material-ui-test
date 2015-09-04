@@ -6,6 +6,7 @@ let RaisedButton = mui.RaisedButton;
 let Dialog = mui.Dialog;
 let ThemeManager = new mui.Styles.ThemeManager();
 let Colors = mui.Styles.Colors;
+let AppBar = mui.AppBar;
 
 let Main = React.createClass({
 
@@ -48,7 +49,12 @@ let Main = React.createClass({
         <h1>material-ui</h1>
         <h2>example project</h2>
 
+       <AppBar
+          title="Title"
+          iconClassNameRight="muidocs-icon-navigation-expand-more" />
+        <br /><br />
         <RaisedButton label="Super Secret Password 3" primary={true} onTouchTap={this._handleTouchTap} />
+ 
 
       </div>
     );
