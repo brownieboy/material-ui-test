@@ -42,13 +42,13 @@ let Main = React.createClass({
           title="Super Secret Password"
           actions={standardActions}
           ref="superSecretPasswordDialog">
-          1-2-3-4-5
+          1-2-3-4-5-6-7-8-9-10
         </Dialog>
 
         <h1>material-ui</h1>
         <h2>example project</h2>
 
-        <RaisedButton label="Super Secret Password" primary={true} onTouchTap={this._handleTouchTap} />
+        <RaisedButton label="Super Secret Password 3" primary={true} onTouchTap={this._handleTouchTap} />
 
       </div>
     );
